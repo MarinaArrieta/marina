@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruluko&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #0B0B0B;
+}
+
+header img{
+	display: flex;
+	border-radius: 87px;
+	width: 161px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+header h1{
+	font-family: 'Bungee Hairline';
+	color: #FAE8B8;
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 97px;
+}
+
+.card{
+  	height: 376px;
+  	width: 767px;
+  	margin:40px 38px 20px 38px;
+  	border-radius: 5px;
+  	background-color: #0B0B0B;
+  	border-width: 1px;
+	border-style: solid;
+	border-color: #FAE8B8;
+	display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 66px;
+}
+
+main h2{
+	margin: 0;
+	text-align: center;
+	color: #0B0B0B;
+	background-color: #87FAC4;
+	box-shadow: 0px 6px 13px #FD7AAC;
+	font-family: 'Kodchasan', cursive;
+}
+
+main p{
+	color: #FAE8B8;
+	font-family: 'Ruluko', cursive;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+main li ul{
+	color: #FAE8B8;
+	font-family: 'Ruluko', cursive;
+	font-size: 1.5em;
+	text-align: center; 
+	margin: auto;
+	padding: 0;
+}
+
+main i{
+	color: #FAE8B8;
+}
