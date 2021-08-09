@@ -12,9 +12,10 @@ body{
 header img{
 	display: flex;
 	border-radius: 87px;
-	width: 161px;
+	width: 170px;
 	margin: auto;
 	margin-top: 50px;
+	border: #000 6px solid;
 	box-shadow: -12px 7px 8px #da759b, 10px 10px 8px #77efa7,1px -11px 8px #efa85f;
 }
 
@@ -24,11 +25,11 @@ header h1{
 	font-size: 3em;
 	text-align: center;
 	margin-bottom: 63px;
-	box-shadow: 0px 13px 0px #FFFFFF;
+	box-shadow: 0px 17px 0px #FFFFFF;
 }
 
 .card{
-  	width: 85%;
+  	width: 73%;
   	padding: 13px;
   	border-radius: 0px 17px 72px 72px;
   	background-color: #0B0B0B;
@@ -36,7 +37,7 @@ header h1{
     flex-direction: column;
     margin: auto;
     margin-bottom: 66px;
-    box-shadow: 0px 6px 13px #FD7AAC;
+    box-shadow: 0px 6px 13px #29563b;
 }
 
 .card div{
@@ -48,6 +49,9 @@ header h1{
 main h2{
 	margin: 0;
 	text-align: center;
+	border-width: 0px 6px 5px 0px;
+	border-style: solid;
+  	border-color: #ad1951;
 	border-radius: 0px 16px 0px 0px;
 	color: #0B0B0B;
 	background-color: #15f76f;
