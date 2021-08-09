@@ -28,7 +28,7 @@ header h1{
 }
 
 .card{
-  	width: 398px;
+  	width: 286px;
   	padding: 13px;
   	border-radius: 0px 17px 72px 72px;
   	background-color: #0B0B0B;
@@ -90,4 +90,14 @@ main ul li strong{
 	margin-left: 4%;
 	color: #FAE8B8; 
 	text-decoration: none;
+}
+
+@media only screen and (min-width:768px){
+	.card{
+  		width: 364px;
+}
+
+@media only screen and (min-width:1440px){
+	.card{
+  		width: 497px;
 }
